@@ -4,7 +4,7 @@ module.exports = {
     "password": "B0L9kTxBr0LmWIM0XcHOs8NU0lEZlwkr",
     "database": "brmiyaqx",
     "host": "salt.db.elephantsql.com",
-    "dialect": "postgress",
+    "dialect": "postgres",
     "port": 5432,
     "operatorsAliases": false
   },
