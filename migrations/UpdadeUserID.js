@@ -38,7 +38,7 @@ module.exports = {
       },
       is_admin: {
         allowNull: true,
-        type: DataTypes.BOOLEAN,
+        type: Sequelize.BOOLEAN,
       }
     })
   },

@@ -1,6 +1,6 @@
 let LocalStrategy = require('passport-local').Strategy;
 
-let bcrypt = require('bcrypt');
+let bcrypt = require('bcryptjs');
 let models = require('./models');
 
 const validPassword = function(user, password) {
